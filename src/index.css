@@ -23,7 +23,7 @@ root {
 }
 
 .logo:hover {
-  filter: drop-shadow(.3em  .3em  .8em pink);
+  filter: drop-shadow(0.3em 0.3em 0.8em pink);
 }
 
 .logo {
@@ -57,4 +57,3 @@ button.counter {
   background-color: pink;
   font-weight: bold;
 }
-
