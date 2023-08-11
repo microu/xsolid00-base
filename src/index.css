@@ -1,0 +1,60 @@
+@import "./reset.css";
+
+root {
+  background-color: #666;
+}
+
+#main {
+  max-width: 1024px;
+  margin: 0 auto;
+  background-color: #100000;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #eee;
+  min-height: 100vh;
+}
+
+#banner {
+  padding: 0.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid darkorange;
+}
+
+.logo:hover {
+  filter: drop-shadow(.3em  .3em  .8em pink);
+}
+
+.logo {
+  width: 2rem;
+  height: 2rem;
+}
+
+#banner-title {
+  border-radius: 0.5rem;
+  border-width: 0 2px 0 2px;
+  padding: 0.5rem;
+  background-color: #411;
+}
+
+#banner-title h2 {
+  font-size: 1.3rem;
+  letter-spacing: 0.25rem;
+}
+
+#main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+button.counter {
+  border: none;
+  border-radius: 0.2rem;
+  background-color: pink;
+  font-weight: bold;
+}
+
